@@ -157,57 +157,57 @@
 		background-color: #030713;
 	}
 
-	.meetup {
+	.whatsappn {
 		background-image: linear-gradient(to left, #e7ff49, #b3ca1d);
 		color: #195148;
 	}
-	.meetup-sm {
+	.whatsappn-sm {
 		background-image: linear-gradient(to top, #e7ff49, #b3ca1d);
 		color: #195148;
 	}
-	.meetup-desc {
+	.whatsappn-desc {
 		color: #2a5e55;
 	}
-	.meetup-btn {
+	.whatsappn-btn {
 		color: #1b4b43;
 	}
-	.meetup-underline {
+	.whatsappn-underline {
 		background-color: #1b4b43;
 	}
 
-	.crew-talk {
+	.whatsappnm {
 		background-image: linear-gradient(to right, #d5a5f9, #69b3d3);
 		color: #135296;
 	}
-	.crew-talk-sm {
+	.whatsappnm-sm {
 		background-image: linear-gradient(to top, #d5a5f9, #69b3d3);
 		color: #135296;
 	}
-	.crew-talk-desc {
+	.whatsappnm-desc {
 		color: #2a6cb2;
 	}
-	.crew-talk-btn {
+	.whatsappnm-btn {
 		color: #113f70;
 	}
-	.crew-talk-underline {
+	.whatsappnm-underline {
 		background-color: #113f70;
 	}
 
-	.omega {
+	.whatsapp {
 		background-image: linear-gradient(to left, #be7bf1, #5a56e9);
 		color: #fff;
 	}
-	.omega-sm {
+	.whatsapp-sm {
 		background-image: linear-gradient(to top, #be7bf1, #5a56e9);
 		color: #fff;
 	}
-	.omega-desc {
+	.whatsapp-desc {
 		color: #cdcdcd;
 	}
-	.omega-btn {
+	.whatsapp-btn {
 		color: #fff;
 	}
-	.omega-underline {
+	.whatsapp-underline {
 		background-color: #fff;
 	}
 

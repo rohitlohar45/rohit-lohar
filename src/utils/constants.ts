@@ -55,6 +55,7 @@ export const SWIFT_LINK = 'https://developer.apple.com/xcode/swiftui/';
 export const MAC_LINK = 'https://support.apple.com/macos';
 export const XCODE_LINK = 'https://developer.apple.com/xcode/';
 export const FIGMA_LINK = 'https://www.figma.com/';
+export const WEBRTC_LINK = 'https://webrtc.org/';
 
 export const MAIN_RIGHT_SKILLS_LISTS: Technology[] = [
   
@@ -213,6 +214,76 @@ export const PROJECTS_LISTS: Project[] = [
   },
   {
     id: 1,
+    title: 'Discord Themed Whatsapp',
+    stacks: {
+      FE: [
+        {
+          technology: 'ReactJs',
+          techLink: REACT_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: 'Typescript',
+          techLink: TS_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: 'WebRTC',
+          techLink: WEBRTC_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: 'Socketio',
+          techLink: '#',
+          shouldShake: false,
+        },
+        {
+          technology: 'Redux',
+          techLink: REDUX_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: 'TailwindCSS',
+          techLink: TAILWIND_LINK,
+          shouldShake: false,
+        }
+      ],
+      BC: [
+      ],
+      BE: [
+        {
+          technology: 'NodeJS',
+          techLink: NODE_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: 'MongoDB',
+          techLink: MONGO_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: 'Socketio',
+          techLink: '#',
+          shouldShake: false,
+        }
+      ],
+      Mobile: [],
+    },
+
+    description:
+      'A real time chat application with video call feature. Group chat, private chat, video call, etc. are some of the features of this application. It is built with ReactJS, NodeJS, MongoDB, Socketio, WebRTC, Redux, TailwindCSS.',
+    repoLink: `${ROHIT_GITHUB_LINK}/whatsapp-client`,
+    liveLink: 'https://whatsapp-client-r6au.onrender.com',
+    demoLink: ``,
+    thumbnail: 'whatsapp/whatsapp.svg',
+    cssWrapper: 'whatsapp',
+    cssWrapperSm: 'whatsapp-sm',
+    cssDesc: 'whatsapp-desc',
+    cssBtn: 'whatsapp-btn',
+    cssUnderline: 'whatsapp-underline',
+  },
+  {
+    id: 2,
     title: 'Algorithm Visulaizer',
     stacks: {
       FE: [
@@ -251,7 +322,7 @@ export const PROJECTS_LISTS: Project[] = [
     cssUnderline: 'algorithm-visualizer-underline',
   },
   {
-    id: 2,
+    id: 3,
     title: 'Coderigade',
     stacks: {
       FE: [
@@ -294,7 +365,7 @@ export const PROJECTS_LISTS: Project[] = [
     cssUnderline: 'coderigade-underline',
   },
   {
-    id: 3,
+    id: 4,
     title: 'E-commerce using Context API',
     stacks: {
       FE: [
